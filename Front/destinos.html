@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="index.css">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Vai pra onde? A agência que te leva pro mundo!</title>
+  </head>
+  <body>
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="index.html">Vai pra onde? Sua agência de viagens!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destinos.html">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promocoes.html">Promoções</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br><br>
+
+      <div class="container">
+        <h1>Conheça nossos destinos!</h1>
+      </div>
+      <hr>
+      <div class="container">
+      <h5>E escolha sua próxima viagem.</h5>
+    </div>
+      <hr>
+
+        <form>
+            <label for="destino">Para onde quer ir:</label>
+            <select id="destino" name="destino">
+                <option value="rio">Rio de Janeiro</option>
+                <option value="sp">São Paulo</option>
+                <option value="bh">Belo Horizonte</option>
+                <option value="bh">Londres</option>
+                <option value="bh">Japão</option>
+                <option value="bh">Argentina</option>
+            </select>
+  
+            <br>
+            <label for="destino">De onde está saindo:</label>
+            <select id="destino" name="destino">
+                <option value="rio">Rio de Janeiro</option>
+                <option value="sp">São Paulo</option>
+                <option value="bh">Belo Horizonte</option>
+                <option value="bh">Londres</option>
+                <option value="bh">Japão</option>
+                <option value="bh">Argentina</option>
+            </select>
+    
+            <br>
+    
+            <label for="dataIda">Ida:</label>
+            <input type="date" id="dataIda" name="dataIda" required>
+    
+            <br>
+    
+            <label for="dataVolta">Volta:</label>
+            <input type="date" id="dataVolta" name="dataVolta" required>
+    
+            <br>
+    
+            <label for="numAdultos">Adultos:</label>
+            <input type="number" id="numAdultos" name="numAdultos" min="1" value="1">
+    
+            <br>
+    
+            <label for="numCriancas">Crianças:</label>
+            <input type="number" id="numCriancas" name="numCriancas" min="0" value="0">
+    
+            <br>
+    
+            <button type="submit">Pesquisar</button>
+        </form>
+        <br>
+    
+        <div class="container">
+         <div class="cards">
+         <section class="card">
+            <div class="icon">
+            <img src="./madrid.png" alt="Madrid">
+        </div>
+            <h3>Madrid, Espanha por apenas R$1500</h3>
+            <span>Partindo de Guarulhos, SP.</span>
+            <a href="https://www.cvc.com.br/lp/promocoes/vai-de-cvc?utm_source=google&utm_medium=cpc_br&utm_content=2023_ic_search_21-Junho_alerta-amarelo&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzAfP8_dvOVDdmdYrdNJ8J7GXpQo_n6bebJghZuAVzj-JkukRSFIE0aAqFcEALw_wcB">Compre agora!</button></a>
+
+            <hr>
+
+        </section>
+         </div>
+         <div class="container">
+            <section class="card">
+            <div class="icon">
+            <img src="./japao.png" alt="Japão">
+            </div>
+            <h3>Japão por apenas R$4000</h3>
+            <span>Parcelamos em até 12x sem juros!</span>
+            <a href="https://www.cvc.com.br/lp/promocoes/vai-de-cvc?utm_source=google&utm_medium=cpc_br&utm_content=2023_ic_search_21-Junho_alerta-amarelo&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzAfP8_dvOVDdmdYrdNJ8J7GXpQo_n6bebJghZuAVzj-JkukRSFIE0aAqFcEALw_wcB">Compre agora!</button></a>
+            <hr>
+        </div>
+
+        </section>
+        <div class="container">
+            <section class="card">
+            <div class="icon">
+            <img src="./amsterdam.png" alt="Amsterdam">
+    </div>
+            <h3>Amsterdam por apenas R$3000</h3>
+            <span>Parcelamos em até 12x sem juros!</span>
+            <a href="https://www.cvc.com.br/lp/promocoes/vai-de-cvc?utm_source=google&utm_medium=cpc_br&utm_content=2023_ic_search_21-Junho_alerta-amarelo&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzAfP8_dvOVDdmdYrdNJ8J7GXpQo_n6bebJghZuAVzj-JkukRSFIE0aAqFcEALw_wcB">Compre agora!</button></a>
+            <hr>
+    </div>
+
+        </section>
+        
+        <div class="container">
+        <section class="card">
+            <div class="icon">
+            <img src="./argentina.png" alt="Argentina">
+        </div>
+            <h3>Argentina por apenas R$989</h3>
+            <span>Partindo de SP ou RJ.</span>
+            <a href="https://www.cvc.com.br/lp/promocoes/vai-de-cvc?utm_source=google&utm_medium=cpc_br&utm_content=2023_ic_search_21-Junho_alerta-amarelo&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzAfP8_dvOVDdmdYrdNJ8J7GXpQo_n6bebJghZuAVzj-JkukRSFIE0aAqFcEALw_wcB">Compre agora!</button></a>
+            <hr>
+    </div>
+
+        </section>
+        <div class="container">
+            <section class="card">
+            <div class="icon">
+            <img src="./maldivas.png" alt="Maldivas">
+            </div>
+        <h3>Maldivas por R$4200</h3>
+            <span>Parcelamos em até 12x sem juros!</span>
+            <a href="https://www.cvc.com.br/lp/promocoes/vai-de-cvc?utm_source=google&utm_medium=cpc_br&utm_content=2023_ic_search_21-Junho_alerta-amarelo&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzAfP8_dvOVDdmdYrdNJ8J7GXpQo_n6bebJghZuAVzj-JkukRSFIE0aAqFcEALw_wcB">Compre agora!</button></a>
+            <hr>
+        </div>
+
+
+        </section>
+        <div class="container">
+            <section class="card">
+            <div class="icon">
+            <img src="./méxico.png" alt="México">
+            </div>
+            <h3>Ciudad de México por apenas R$1500</h3>
+            <span>Partindo do RJ.</span>
+            <a href="https://www.cvc.com.br/lp/promocoes/vai-de-cvc?utm_source=google&utm_medium=cpc_br&utm_content=2023_ic_search_21-Junho_alerta-amarelo&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzAfP8_dvOVDdmdYrdNJ8J7GXpQo_n6bebJghZuAVzj-JkukRSFIE0aAqFcEALw_wcB">Compre agora!</button></a>
+        </div>
+        </div>
+        </div>
+        </section>
+        <hr>
+   
+
+
+    </main>
+</body>
+      
+      <footer style="background-color: #333; "class="page-footer font-small blue">
+        <div class="text-center">
+            <a href="https://recode.org.br/sobre-a-recode/?gclid=CjwKCAjwtuOlBhBREiwA7agf1iRvwrBdPwVSmhuQJFJna7Bgf-849tF1V8kuV4HMT_DcY9qM-BE7NRoCZm8QAvD_BwE">© Recode Pro 2023 - Desenvolvido por Myllene Nascimento</a>
+        </div>
+    </footer>
+</html>

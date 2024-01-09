@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+  }
+
+  
+ .h2 {
+    text-align: center;
+ }
+ 
+.container .h5 {
+    text-align: center;
+ }
+
+ .container .h5 {
+    text-align: center;
+ }
+
+ .footer {
+    width: 100%;
+ }
+
+ 
+ form {
+     text-align: center;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     background-color: #f9f9f9;
+ }
+ 
